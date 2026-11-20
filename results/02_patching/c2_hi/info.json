@@ -1,0 +1,20 @@
+{
+ "contrast": "c2",
+ "lang": "hi",
+ "n_candidate_pairs": 40,
+ "n_correct": 38,
+ "n_used": 38,
+ "d_clean": "2.311 [1.124, 3.500]",
+ "d_corr": "-3.029 [-3.507, -2.586]",
+ "example_clean": "हाँ, मैंने खाना खा",
+ "example_corrupt": "हाँ, मैं खाना खा",
+ "example_roles": {
+  "w": "▁मैंने",
+  "mid_first": "▁खा",
+  "mid_last": "ना",
+  "END": "▁खा"
+ },
+ "sanity_last_logits_vs_full_maxabs": 5.53131103515625e-05,
+ "sanity_full_layer0_patch_maxabs_err": 0.0,
+ "sanity_identity_patch_maxabs_err": 0.0
+}

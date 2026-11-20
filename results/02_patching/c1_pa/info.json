@@ -1,0 +1,24 @@
+{
+ "contrast": "c1",
+ "lang": "pa",
+ "n_candidate_pairs": 248,
+ "n_correct": 144,
+ "n_used": 144,
+ "d_clean": "0.934 [0.810, 1.054]",
+ "d_corr": "-0.934 [-1.057, -0.811]",
+ "example_clean": "ਇਹ ਕੁਰਸੀ ਮੇਰੀ ਹੈ। ਇਹ ਕਮਰਾ ਮੇਰਾ ਹੈ। ਇਹ ਦਫ਼ਤਰ ਅਸਲ ਵਿੱਚ ਮੇ",
+ "example_corrupt": "ਇਹ ਕੁਰਸੀ ਮੇਰੀ ਹੈ। ਇਹ ਕਮਰਾ ਮੇਰਾ ਹੈ। ਇਹ ਗੁੱਡੀ ਅਸਲ ਵਿੱਚ ਮੇ",
+ "example_roles": {
+  "w_first": "▁ਦ",
+  "w_mid": "ਤ",
+  "w_last": "ਰ",
+  "mid_first": "▁ਅ",
+  "mid_inner": "ਲ",
+  "mid_last": "▁ਵਿੱਚ",
+  "pfx": "▁ਮ",
+  "END": "ੇ"
+ },
+ "sanity_last_logits_vs_full_maxabs": 3.24249267578125e-05,
+ "sanity_full_layer0_patch_maxabs_err": 0.0,
+ "sanity_identity_patch_maxabs_err": 0.0
+}

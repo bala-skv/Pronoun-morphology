@@ -1,0 +1,393 @@
+# sent_id = ud_punjabi_petitprince_79
+# original_text = " ਇਹ ਭੇਡ ਤਾਂ ਬੁੱਢੀ ਹੈ ।.
+# transliteration = "eh bhēṛ tā̃ budhī hai.
+# gloss = this sheep EMPH old COP.PRS.
+# translation = "This one is too old.
+# text = " ਇਹ ਭੇਡ ਤਾਂ ਬੁੱਢੀ ਹੈ ।
+1	"	"	PUNCT	_	_	2	punct	_	_
+2	ਇਹ	ਇਹ	PRON	_	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
+3	ਭੇਡ	ਭੇਡ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	ਤਾਂ	ਤਾਂ	ADV	_	_	6	advmod	_	_
+5	ਬੁੱਢੀ	ਬੁੱਢੀ	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	6	xcomp	_	_
+6	ਹੈ	ਹੈ	AUX	_	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Pres	0	root	_	_
+7	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_80
+# original_text = ਮੈਂ ਅਜਿਹੀ ਭੇਡ ਚਾਹੁੰਦਾ ਹਾਂ ਜੋ ਮੇਰੇ ਕੋਲ ਵੱਧ ਤੋਂ ਵੱਧ ਸਮਾਂ ਰਹੇ। . "
+# transliteration = maĩ ajhī bhēṛ chāhandā hā̃ jo mere kol vadh to vadh samā̃ rahe."
+# gloss = I such sheep want COP.PRS REL my with more than more time stay.SUBJ.
+# translation = I want a sheep that will live a long time."
+# text = ਮੈਂ ਅਜਿਹੀ ਭੇਡ ਚਾਹੁੰਦਾ ਹਾਂ ਜੋ ਮੇਰੇ ਕੋਲ ਵੱਧ ਤੋਂ ਵੱਧ ਸਮਾਂ ਰਹੇ । "
+1	ਮੈਂ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ਅਜਿਹੀ	ਅਜਿਹਾ	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	ਭੇਡ	ਭੇਡ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	ਚਾਹੁੰਦਾ	ਚਾਹੁਣਾ	VERB	_	Gender=Masc|Number=Sing|Person=1|Tense=Pres|VerbForm=Part	0	root	_	_
+5	ਹਾਂ	ਹੈ	AUX	_	Number=Sing|Tense=Pres	4	aux	_	_
+6	ਜੋ	ਜੋ	PRON	_	PronType=Rel	13	nsubj	_	_
+7	ਮੇਰੇ	ਮੈਂ	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
+8	ਕੋਲ	ਕੋਲ	ADP	_	_	13	obl	_	_
+9	ਵੱਧ	ਵੱਧ	ADJ	_	Case=Acc|ExtPos=ADJ|Number=Sing	12	amod	_	_
+10	ਤੋਂ	ਤੋਂ	ADP	_	_	9	fixed	_	_
+11	ਵੱਧ	ਵੱਧ	ADJ	_	Number=Sing	9	fixed	_	_
+12	ਸਮਾਂ	ਸਮਾਂ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl:tmod	_	_
+13	ਰਹੇ	ਰਹਿਣਾ	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+14	।	।	PUNCT	_	_	4	punct	_	_
+15	"	"	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_81
+# original_text = ਹੁਣ ਮੋਰੇ ਸਬਰ ਦਾ ਬੰਨ੍ਹ ਟੁੱਟ ਗਿਆ , ਕਿਉਂਕਿ ਹੁਣ ਮੈਨੂੰ ਕਾਹਲ ਪੈ ਚੁੱਕੀ ਸੀ ਕਿ ਆਪਣਾ ਇੰਜਣ ਬਾਹਰ ਕੱਢਾਂ। .
+# transliteration = hun more sabar dā banh ṭuṭ gayā, kiõki hun mainū̃ kāhal pe cukī sī ki āpnā injan bāhar kaḍhā̃.
+# gloss = now my patience GEN bond break go.PST. because now me.DAT worry fall.PFV COP.PST that own engine outside take.out.SUBJ.
+# translation = By this time my patience was exhausted, because I was in a hurry to start taking my engine apart.
+# text = ਹੁਣ ਮੋਰੇ ਸਬਰ ਦਾ ਬੰਨ੍ਹ ਟੁੱਟ ਗਿਆ , ਕਿਉਂਕਿ ਹੁਣ ਮੈਨੂੰ ਕਾਹਲ ਪੈ ਚੁੱਕੀ ਸੀ ਕਿ ਆਪਣਾ ਇੰਜਣ ਬਾਹਰ ਕੱਢਾਂ ।
+1	ਹੁਣ	ਹੁਣ	ADV	_	_	7	advmod	_	_
+2	ਮੋਰੇ	ਮੈਂ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	ਸਬਰ	ਸਬਰ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+4	ਦਾ	ਦਾ	ADP	_	_	3	case	_	_
+5	ਬੰਨ੍ਹ	ਬੰਨ੍ਹ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ਟੁੱਟ	ਟੁੱਟਣਾ	VERB	_	Case=Acc|Mood=Ind|VerbForm=Inf	7	compound:svc	_	_
+7	ਗਿਆ	ਗਿਆ	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ਕਿਉਂਕਿ	ਕਿਉਂਕਿ	SCONJ	_	_	15	mark	_	_
+10	ਹੁਣ	ਹੁਣ	ADV	_	_	15	advmod	_	_
+11	ਮੈਨੂੰ	ਮੈਂ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+12	ਕਾਹਲ	ਕਾਹਲ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	ਪੈ	ਪੈਣਾ	VERB	_	Mood=Ind|VerbForm=Inf	15	compound:svc	_	_
+14	ਚੁੱਕੀ	ਚੁੱਕਣਾ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Part	13	compound:svc	_	_
+15	ਸੀ	ਸੀ	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	advcl	_	_
+16	ਕਿ	ਕਿ	SCONJ	_	_	20	mark	_	_
+17	ਆਪਣਾ	ਆਪਣਾ	PRON	_	Case=Acc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det:poss	_	_
+18	ਇੰਜਣ	ਇੰਜਣ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+19	ਬਾਹਰ	ਬਾਹਰ	ADV	_	_	20	advmod	_	_
+20	ਕੱਢਾਂ	ਕੱਢਣਾ	VERB	_	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	15	ccomp	_	_
+21	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_82
+# original_text = ਸੋ ਮੈਂ ਆਪਣੀ ਡਰਾਇੰਗ ਨੂੰ ਵਗਾਹ ਮਾਰਿਆ ਤੇ ਇਸ ਦੇ ਨਾਲ ਹੀ ਜੁੜੇ ਸਪਸ਼ਟੀਕਰਨ ਨੂੰ ਵੀ। .
+# transliteration = so maĩ āpnī ḍrāiṅg nū̃ vagāh māriyā te us de nāl hī juṛe spashṭīkaraṇ nū̃ vī.
+# gloss = so 1SG own drawing ACC stroke hit PST, and 3SG.GEN with EMPH attach PTCP explanation PL ACC also.
+# translation = So I tossed off this drawing and I threw out an explanation with it.
+# text = ਸੋ ਮੈਂ ਆਪਣੀ ਡਰਾਇੰਗ ਨੂੰ ਵਗਾਹ ਮਾਰਿਆ ਤੇ ਇਸ ਦੇ ਨਾਲ ਹੀ ਜੁੜੇ ਸਪਸ਼ਟੀਕਰਨ ਨੂੰ ਵੀ ।
+1	ਸੋ	ਸੋ	ADV	_	_	7	advmod	_	_
+2	ਮੈਂ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	ਆਪਣੀ	ਆਪਣਾ	PRON	_	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
+4	ਡਰਾਇੰਗ	ਡਰਾਇੰਗ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	ਨੂੰ	ਨੂੰ	ADP	_	_	4	case	_	_
+6	ਵਗਾਹ	ਵਗਾਹੁਣਾ	VERB	_	Mood=Ind	7	compound:lvc	_	_
+7	ਮਾਰਿਆ	ਮਾਰਨਾ	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	ਤੇ	ਤੇ	CCONJ	_	_	7	cc	_	_
+9	ਇਸ	ਇਸ	DET	_	PronType=Dem	14	det	_	_
+10	ਦੇ	ਦੇ	ADP	_	_	9	case	_	_
+11	ਨਾਲ	ਨਾਲ	ADP	_	_	9	case	_	_
+12	ਹੀ	ਹੀ	ADV	_	_	11	advmod	_	_
+13	ਜੁੜੇ	ਜੁੜਨਾ	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	ਸਪਸ਼ਟੀਕਰਨ	ਸਪਸ਼ਟੀਕਰਨ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
+15	ਨੂੰ	ਨੂੰ	ADP	_	_	14	case	_	_
+16	ਵੀ	ਵੀ	ADV	_	_	14	advmod	_	_
+17	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_83
+# original_text = " ਇਹ ਭੇਡ ਦਾ ਬਕਸਾ ਹੈ ਤੇ ਜਿਹੜੀ ਭੇਡ ਤੂੰ ਕਹਿ ਰਿਹਾ ਏਂ ਉਹ ਇਸ ਬਕਸੇ ਵਿਚ ਹੈ। . "
+# transliteration = "eh bhēṛ dā baksā hai te jeṛhī bhēṛ tū̃ kah rahā ẽ eh is baksē vic hai."
+# gloss = this sheep GEN box COP.PRS and REL sheep you say PROG COP.PRS this that box in COP.PRS.
+# translation = "This is only his box. The sheep you asked for is inside."
+# text = " ਇਹ ਭੇਡ ਦਾ ਬਕਸਾ ਹੈ ਤੇ ਜਿਹੜੀ ਭੇਡ ਤੂੰ ਕਹਿ ਰਿਹਾ ਏਂ ਉਹ ਇਸ ਬਕਸੇ ਵਿਚ ਹੈ । "
+1	"	"	PUNCT	_	_	6	punct	_	_
+2	ਇਹ	ਇਹ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+3	ਭੇਡ	ਭੇਡ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nmod:poss	_	_
+4	ਦਾ	ਦਾ	ADP	_	_	3	case	_	_
+5	ਬਕਸਾ	ਬਕਸਾ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+6	ਹੈ	ਹੈ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ਤੇ	ਤੇ	CCONJ	_	_	6	cc	_	_
+8	ਜਿਹੜੀ	ਜਿਹੜਾ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	9	det	_	_
+9	ਭੇਡ	ਭੇਡ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+10	ਤੂੰ	ਤੂੰ	PRON	_	Person=2|PronType=Prs	11	nsubj	_	_
+11	ਕਹਿ	ਕਹਿਣਾ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	ਰਿਹਾ	ਰਹਿਣਾ	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Part	11	compound:svc	_	_
+13	ਏਂ	ਹੈ	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+14	ਉਹ	ਉਹ	PRON	_	Case=Nom|Number=Sing|PronType=Dem	18	nsubj	_	_
+15	ਇਸ	ਇਸ	DET	_	PronType=Dem	16	det	_	_
+16	ਬਕਸੇ	ਬਕਸਾ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	_
+17	ਵਿਚ	ਵਿਚ	ADP	_	_	16	case	_	_
+18	ਹੈ	ਹੈ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+19	।	।	PUNCT	_	_	6	punct	_	_
+20	"	"	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_84
+# original_text = ਮੈਨੂੰ ਇਹ ਵੇਖ ਕੇ ਹੈਰਾਨੀ ਹੋਈ ਕਿ ਮੇਰੀ ਡਰਾਇੰਗ ਦੇ ਨਿੱਕੇ ਜਿਹੇ ਜੱਜ ਦੇ ਚਿਹਰੇ ਤੇ ਚਮਕ ਆ ਗਈ। .
+# transliteration = mainū̃ eh vekh ke herānī hoī ki merī ḍrāiṅg de nike jehe jajj de chehre te chamak ā gaī.
+# gloss = me.DAT this see.CVB astonishment happen.PFV that my drawing GEN little judge GEN face on shine come go.PST.
+# translation = I was very surprised to see a light break over the face of my young judge.
+# text = ਮੈਨੂੰ ਇਹ ਵੇਖ ਕੇ ਹੈਰਾਨੀ ਹੋਈ ਕਿ ਮੇਰੀ ਡਰਾਇੰਗ ਦੇ ਨਿੱਕੇ ਜਿਹੇ ਜੱਜ ਦੇ ਚਿਹਰੇ ਤੇ ਚਮਕ ਆ ਗਈ ।
+1	ਮੈਨੂੰ	ਮੈਂ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+2	ਇਹ	ਇਹ	PRON	_	PronType=Dem	3	obj	_	_
+3	ਵੇਖ	ਵੇਖਣਾ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	ਕੇ	ਕੇ	ADP	_	_	3	mark	_	_
+5	ਹੈਰਾਨੀ	ਹੈਰਾਨ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ਹੋਈ	ਹੋਣਾ	VERB	_	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ਕਿ	ਕਿ	CCONJ	_	_	19	mark	_	_
+8	ਮੇਰੀ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nmod:poss	_	_
+9	ਡਰਾਇੰਗ	ਡਰਾਇੰਗ	NOUN	_	Gender=Fem|Number=Sing	13	dep	_	_
+10	ਦੇ	ਦੇ	ADP	_	_	9	case	_	_
+11	ਨਿੱਕੇ	ਨਿੱਕਾ	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+12	ਜਿਹੇ	ਜਿਹਾ	ADV	_	_	11	advmod	_	_
+13	ਜੱਜ	ਜੱਜ	NOUN	_	Gender=Masc|Number=Sing	15	nmod:poss	_	_
+14	ਦੇ	ਦੇ	ADP	_	_	13	case	_	_
+15	ਚਿਹਰੇ	ਚੇਹਰਾ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+16	ਤੇ	ਤੇ	ADP	_	_	15	case	_	_
+17	ਚਮਕ	ਚਮਕ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+18	ਆ	ਆਉਣਾ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	19	compound:svc	_	_
+19	ਗਈ	ਗਿਆ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|VerbForm=Fin	6	ccomp	_	_
+20	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_85
+# original_text = " ਹਾਂ , ਹਾਂ !
+# transliteration = "hā̃, hā̃!
+# gloss = yes yes
+# translation = "Yes, yes,
+# text = " ਹਾਂ , ਹਾਂ !
+1	"	"	PUNCT	_	_	2	punct	_	_
+2	ਹਾਂ	ਹਾਂ	INTJ	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ਹਾਂ	ਹਾਂ	INTJ	_	_	2	discourse	_	_
+5	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_86
+# original_text = ਇੰਜ ਹੀ ਤਾਂ ਮੈਂ ਚਾਹੁੰਦਾ ਸਾਂ।
+# transliteration = inj hī tā̃ maĩ chāhandā sā̃.
+# gloss = thus EMPH EMPH I want.IPFV COP.PST.
+# translation = That is exactly the way I wanted it!
+# text = ਇੰਜ ਹੀ ਤਾਂ ਮੈਂ ਚਾਹੁੰਦਾ ਸਾਂ ।
+1	ਇੰਜ	ਇੰਜ	ADV	_	_	5	advmod	_	_
+2	ਹੀ	ਹੀ	ADV	_	_	1	advmod:emph	_	_
+3	ਤਾਂ	ਤਾਂ	CCONJ	_	_	2	cc	_	_
+4	ਮੈਂ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	ਚਾਹੁੰਦਾ	ਚਾਹੁਣਾ	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ਸਾਂ	ਸੀ	AUX	_	Number=Sing|Person=1|Tense=Past	5	aux	_	_
+7	।	।	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_87
+# original_text = ਤੁਹਾਨੂੰ ਕੀ ਲੱਗਦੈ ਕਿ ਇਹ ਭੇਡ ਬਹੁਤ ਸਾਰਾ ਘਾਹ ਖਾਵੇਗੀ। . "
+# transliteration = tahānū̃ kī lagde ki eh bhēṛ bohat sārā ghāh khāvēgī."
+# gloss = you.DAT what seem COP.PRS that this sheep very much grass eat-FUT-3SG.
+# translation = Do you think that this sheep will have to have a great deal of grass?"
+# text = ਤੁਹਾਨੂੰ ਕੀ ਲੱਗਦੈ ਕਿ ਇਹ ਭੇਡ ਬਹੁਤ ਸਾਰਾ ਘਾਹ ਖਾਵੇਗੀ । "
+1	ਤੁਹਾਨੂੰ	ਤੁਹਾਨੂੰ	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+2	ਕੀ	ਕੀ	DET	_	PronType=Dem	1	det	_	_
+3	ਲੱਗਦੈ	ਲੱਗਣਾ	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	ਕਿ	ਕਿ	SCONJ	_	_	10	mark	_	_
+5	ਇਹ	ਇਹ	PRON	_	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
+6	ਭੇਡ	ਭੇਡ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	ਬਹੁਤ	ਬਹੁਤ	ADV	_	_	9	advmod	_	_
+8	ਸਾਰਾ	ਸਾਰਾ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+9	ਘਾਹ	ਘਾਹ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
+10	ਖਾਵੇਗੀ	ਖਾਣਾ	VERB	_	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	3	ccomp	_	_
+11	।	।	PUNCT	_	_	3	punct	_	_
+12	"	"	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_88
+# original_text = " ਕਿਓਂ ਬਈ ? "
+# transliteration = "kiũ bai?"
+# gloss = why brother
+# translation = "Why brother?"
+# text = " ਕਿਓਂ ਬਈ ? "
+1	"	"	PUNCT	_	_	2	punct	_	_
+2	ਕਿਓਂ	ਕਿਓਂ	ADV	_	_	0	root	_	_
+3	ਬਈ	ਬਈ	INTJ	_	_	2	discourse	_	_
+4	?	?	PUNCT	_	_	2	punct	_	_
+5	"	"	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_89
+# original_text = " ਕਿਓਂਕਿ ਮੈਂ ਜਿੱਥੇ ਰਹਿੰਦਾ ਹਾਂ ਉੱਥੇ ਹਰ ਚੀਜ਼ ਬਹੁਤ ਥੋੜੀ ਹੁੰਦੀ ਹੈ। . "
+# transliteration = "kiõki maĩ jithe rahndā hā̃ othe har cīz bohat thoṛī hundī hai."
+# gloss = because I where live COP.PRS there every thing very little COP.PRS.
+# translation = "Because where I live everything is very small..."
+# text = " ਕਿਓਂਕਿ ਮੈਂ ਜਿੱਥੇ ਰਹਿੰਦਾ ਹਾਂ ਉੱਥੇ ਹਰ ਚੀਜ਼ ਬਹੁਤ ਥੋੜੀ ਹੁੰਦੀ ਹੈ । "
+1	"	"	PUNCT	_	_	12	punct	_	_
+2	ਕਿਓਂਕਿ	ਕਿਓਂਕਿ	SCONJ	_	_	12	mark	_	_
+3	ਮੈਂ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	ਜਿੱਥੇ	ਜਿੱਥੇ	ADV	_	_	5	advmod	_	_
+5	ਰਹਿੰਦਾ	ਰਹਿਣਾ	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	ਹਾਂ	ਹੈ	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+7	ਉੱਥੇ	ਉੱਥੇ	ADV	_	_	12	advmod	_	_
+8	ਹਰ	ਹਰ	DET	_	PronType=Ind	9	det	_	_
+9	ਚੀਜ਼	ਚੀਜ਼	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
+10	ਬਹੁਤ	ਬਹੁਤ	ADV	_	_	11	advmod	_	_
+11	ਥੋੜੀ	ਥੋੜਾ	ADV	_	_	12	advmod	_	_
+12	ਹੁੰਦੀ	ਹੋਣਾ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ਹੈ	ਹੈ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+14	।	।	PUNCT	_	_	12	punct	_	_
+15	"	"	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_90
+# original_text = ਮੈਂ ਉਸ ਨੂੰ ਆਖਿਆ  .
+# transliteration = maĩ is nū̃ ākhiyā
+# gloss = I him ACC say.PST
+# translation = I said to him,
+# text = ਮੈਂ ਉਸ ਨੂੰ ਆਖਿਆ ।
+1	ਮੈਂ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ਉਸ	ਉਹ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	ਨੂੰ	ਨੂੰ	ADP	_	_	2	case	_	_
+4	ਆਖਿਆ	ਆਖਣਾ	VERB	_	Aspect=Perf|Gender=Masc|Mood=Imp|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	।	।	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_91
+# original_text = "ਇਸ ਜੋਗਾ ਘਾਹ ਤਾਂ ਹੋਣਾ ਹੀ ਹੈ। .
+# transliteration = "is jogā ghāh tā̃ honā hī hai.
+# gloss = this sufficient grass EMPH be.INF EMPH COP.PRS
+# translation = "There will surely be enough grass for him.
+# text = " ਇਸ ਜੋਗਾ ਘਾਹ ਤਾਂ ਹੋਣਾ ਹੀ ਹੈ ।
+1	"	"	PUNCT	_	_	6	punct	_	_
+2	ਇਸ	ਇਸ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	4	nmod	_	_
+3	ਜੋਗਾ	ਜੋਗਾ	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+4	ਘਾਹ	ਘਾਹ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ਤਾਂ	ਤਾਂ	PART	_	_	4	advmod	_	_
+6	ਹੋਣਾ	ਹੋਣਾ	VERB	_	Aspect=Perf|Person=1|Tense=Pres|VerbForm=Inf	0	root	_	_
+7	ਹੀ	ਹੀ	ADV	_	_	6	advmod	_	_
+8	ਹੈ	ਹੈ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_92
+# original_text = ਇਹ ਤਾਂ ਬਹੁਤ ਛੋਟੀ ਭੇਡ ਹੈ ਜੋ ਮੈਂ ਤੈਨੂੰ ਦਿੱਤੀ ਹੈ। . "
+# transliteration = eh tā̃ bohat choṭī bhēṛ hai jo maĩ tainū̃ dittī hai."
+# gloss = this EMPH very small sheep COP.PRS REL I you.DAT give.PST COP.PRS.
+# translation = It is a very small sheep that I have given you."
+# text = ਇਹ ਤਾਂ ਬਹੁਤ ਛੋਟੀ ਭੇਡ ਹੈ ਜੋ ਮੈਂ ਤੈਨੂੰ ਦਿੱਤੀ ਹੈ । "
+1	ਇਹ	ਇਹ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	ਤਾਂ	ਤਾਂ	ADV	_	_	1	advmod	_	_
+3	ਬਹੁਤ	ਬਹੁਤ	ADV	_	_	4	advmod:emph	_	_
+4	ਛੋਟੀ	ਛੋਟਾ	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	ਭੇਡ	ਭੇਡ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	xcomp	_	_
+6	ਹੈ	ਹੈ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ਜੋ	ਜੋ	PRON	_	PronType=Rel	10	obj	_	_
+8	ਮੈਂ	ਮੈਂ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	ਤੈਨੂੰ	ਤੈਨੂੰ	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	obl	_	_
+10	ਦਿੱਤੀ	ਦੇਣਾ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Part	6	ccomp	_	_
+11	ਹੈ	ਹੈ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	।	।	PUNCT	_	_	6	punct	_	_
+13	"	"	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_93
+# original_text = ਉਸਨੇ ਡਰਾਇੰਗ ਉਪਰ ਆਪਣਾ ਸਿਰ ਟਿਕਾਇਆ ਤੇ ਕਹਿਣ ਲੱਗਾ : " ਏਨੀ ਛੋਟੀ ਵੀ ਨਹੀਂ । ਦੇਖੋ ! ਉਹ ਸੌਂ ਗਈ ਹੈ । "
+# transliteration = usne ḍrāiṅg upar āpnā sir ṭikāyā te kahn lagā: "ainī choṭī vī nahī̃. vekho! eh sõ gaī hai..."
+# gloss = he.ERG drawing on own head rest.PST and say begin.PST. so small also NEG look.IMP this sleep go.PFV COP.PRS.
+# translation = He bent his head over the drawing: "Not so small that, look! He has gone to sleep..."
+# text = ਉਸਨੇ ਡਰਾਇੰਗ ਉਪਰ ਆਪਣਾ ਸਿਰ ਟਿਕਾਇਆ ਤੇ ਕਹਿਣ ਲੱਗਾ : " ਏਨੀ ਛੋਟੀ ਵੀ ਨਹੀਂ । ਦੇਖੋ ! ਉਹ ਸੌਂ ਗਈ ਹੈ । "
+1	ਉਸਨੇ	ਉਹ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rel	8	nsubj	_	_
+2	ਡਰਾਇੰਗ	ਡਰਾਇੰਗ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+3	ਉਪਰ	ਉਪਰ	ADP	_	_	2	case	_	_
+4	ਆਪਣਾ	ਆਪਣਾ	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	det:poss	_	_
+5	ਸਿਰ	ਸਿਰ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+6	ਟਿਕਾਇਆ	ਟਿਕਾਉਣਾ	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
+7	ਤੇ	ਤੇ	CCONJ	_	_	6	cc	_	_
+8	ਕਹਿਣ	ਕਹਿਣਾ	VERB	_	Case=Acc|Mood=Ind|VerbForm=Inf	0	root	_	_
+9	ਲੱਗਾ	ਲੱਗਣਾ	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	8	compound:svc	_	_
+10	:	:	PUNCT	_	_	8	punct	_	_
+11	"	"	PUNCT	_	_	12	punct	_	_
+12	ਏਨੀ	ਏਨਾ	DET	_	PronType=Ind	13	advmod	_	_
+13	ਛੋਟੀ	ਛੋਟਾ	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_	_
+14	ਵੀ	ਵੀ	ADV	_	_	15	advmod	_	_
+15	ਨਹੀਂ	ਨਹੀਂ	PART	_	_	8	advmod	_	_
+16	।	।	PUNCT	_	_	15	punct	_	_
+17	ਦੇਖੋ	ਵੇਖਣਾ	INTJ	_	_	15	conj	_	_
+18	!	!	PUNCT	_	_	17	punct	_	_
+19	ਉਹ	ਉਹ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	ਸੌਂ	ਸੌਣਾ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	21	advcl	_	_
+21	ਗਈ	ਗਿਆ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|VerbForm=Fin	17	ccomp	_	_
+22	ਹੈ	ਹੈ	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	aux	_	_
+23	।	।	PUNCT	_	_	8	punct	_	_
+24	"	"	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ud_punjabi_petitprince_94
+# original_text = ਸੋ ਉਸ ਛੋਟੇ ਸ਼ਹਿਜ਼ਾਦੇ ਨਾਲ ਮੇਰੀ ਜਾਣ ਪਛਾਣ ਇੰਜ ਹੋਈ ।.
+# transliteration = so us choṭe shahzāde nāl merī jān-pachān inj hoī.
+# gloss = so that little prince with 1SG acquaintance thus happen PFV.
+# translation = And that is how I made the acquaintance of the little prince.
+# text = ਸੋ ਉਸ ਛੋਟੇ ਸ਼ਹਿਜ਼ਾਦੇ ਨਾਲ ਮੇਰੀ ਜਾਣ ਪਛਾਣ ਇੰਜ ਹੋਈ ।
+1	ਸੋ	ਸੋ	CCONJ	_	_	10	advmod	_	_
+2	ਉਸ	ਉਹ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	4	det	_	_
+3	ਛੋਟੇ	ਛੋਟਾ	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
+4	ਸ਼ਹਿਜ਼ਾਦੇ	ਸ਼ਹਿਜ਼ਾਦਾ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	nsubj	_	_
+5	ਨਾਲ	ਨਾਲ	ADP	_	_	4	case	_	_
+6	ਮੇਰੀ	ਮੈਂ	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
+7	ਜਾਣ	ਜਾਣ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	compound:lvc	_	_
+8	ਪਛਾਣ	ਪਛਾਣ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+9	ਇੰਜ	ਇੰਜ	ADV	_	_	10	advmod	_	_
+10	ਹੋਈ	ਹੋਣਾ	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+11	।	।	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ud_punjabi_coercive_discourse_17
+# original_text = ਇਹ ਹਰ ਕਿਸੇ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰੇਗਾ; ਖੇਤ ਮਜ਼ਦੂਰਾਂ ਤੋਂ ਲੈ ਕੇ, ਟਰਾਂਸਪੋਰਟਰਾਂ ਤੱਕ, ਸ਼ਹਿਰੀ ਕਾਮਿਆਂ, ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਪੇਸ਼ੇਵਰਾਂ ਤੱਕ।
+# transliteration = ih har kise nū̃ prabhāvit karegā; khet mazdūrā̃ tõ lai ke, ṭrānsporterā̃ takk, śaharī kāmiā̃, vidyārthīā̃ ate peśevrā̃ takk.
+# translation = It will affect everybody across the board; from field laborers, to transporters, to urban workers, students and professionals.
+# text = ਇਹ ਹਰ ਕਿਸੇ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰੇਗਾ ; ਖੇਤ ਮਜ਼ਦੂਰਾਂ ਤੋਂ ਲੈ ਕੇ , ਟਰਾਂਸਪੋਰਟਰਾਂ ਤੱਕ , ਸ਼ਹਿਰੀ ਕਾਮਿਆਂ , ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਪੇਸ਼ੇਵਰਾਂ ਤੱਕ ।
+1	ਇਹ	ਇਹ	PRON	_	Case=Nom|Number=Plur|PronType=Dem	5	nsubj	_	_
+2	ਹਰ	ਹਰ	PRON	_	PronType=Ind	5	obj	_	_
+3	ਕਿਸੇ	ਕਿਸ	PRON	_	PronType=Ind	2	conj	_	_
+4	ਨੂੰ	ਨੂੰ	ADP	_	_	2	case	_	_
+5	ਪ੍ਰਭਾਵਿਤ	ਪ੍ਰਭਾਵ	ADJ	_	_	6	compound:lvc	_	_
+6	ਕਰੇਗਾ	ਕਰਨਾ	VERB	_	_	0	root	_	_
+7	;	:	PUNCT	_	_	6	punct	_	_
+8	ਖੇਤ	ਖੇਤ	NOUN	_	_	9	nmod	_	_
+9	ਮਜ਼ਦੂਰਾਂ	ਮਜ਼ਦੂਰ	NOUN	_	_	6	appos	_	_
+10	ਤੋਂ	ਤੋਂ	ADP	_	_	9	case	_	_
+11	ਲੈ	ਲੈ	ADP	_	_	9	case	_	_
+12	ਕੇ	ਕੇ	ADP	_	_	9	case	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ਟਰਾਂਸਪੋਰਟਰਾਂ	ਟਰਾਂਸਪੋਰਟਰ	NOUN	_	_	9	conj	_	_
+15	ਤੱਕ	ਤੱਕ	ADP	_	_	14	case	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	ਸ਼ਹਿਰੀ	ਸ਼ਹਿਰ	ADJ	_	_	18	amod	_	_
+18	ਕਾਮਿਆਂ	ਕਾਮਾ	NOUN	_	_	9	conj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	ਵਿਦਿਆਰਥੀਆਂ	ਵਿਦਿਆਰਥੀ	NOUN	_	_	9	conj	_	_
+21	ਅਤੇ	ਅਤੇ	CCONJ	_	_	22	cc	_	_
+22	ਪੇਸ਼ੇਵਰਾਂ	ਪੇਸ਼ੇਵਰ	NOUN	_	_	9	conj	_	_
+23	ਤੱਕ	ਤੱਕ	ADP	_	_	22	case	_	_
+24	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_punjabi_coercive_discourse_18
+# original_text = ਹੁਣ ਇਹ ਕਾਨੂੰਨ ਪੰਜਾਬ ਅਤੇ ਹਰਿਆਣਾ ਨੂੰ ਸਭ ਤੋਂ ਵੱਧ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ।
+# transliteration = huṇ ih kānūn panjāb ate haryāṇā nū̃ sabh tõ vadh prabhāvit karde han.
+# translation = Now these laws affect Punjab and Haryana the most.
+# text = ਹੁਣ ਇਹ ਕਾਨੂੰਨ ਪੰਜਾਬ ਅਤੇ ਹਰਿਆਣਾ ਨੂੰ ਸਭ ਤੋਂ ਵੱਧ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ ।
+1	ਹੁਣ	ਹੁਣ	ADV	_	_	12	advmod	_	_
+2	ਇਹ	ਇਹ	DET	_	PronType=Dem	3	det	_	_
+3	ਕਾਨੂੰਨ	ਕਾਨੂੰਨ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
+4	ਪੰਜਾਬ	ਪੰਜਾਬ	PROPN	_	Case=Acc	12	obj	_	_
+5	ਅਤੇ	ਅਤੇ	CCONJ	_	_	6	cc	_	_
+6	ਹਰਿਆਣਾ	ਹਰਿਆਣਾ	PROPN	_	Case=Acc	4	conj	_	_
+7	ਨੂੰ	ਨੂੰ	ADP	_	Case=Acc	4	case	_	_
+8	ਸਭ	ਸਭ	DET	_	PronType=Ind	10	obl	_	_
+9	ਤੋਂ	ਤੋਂ	ADP	_	_	8	case	_	_
+10	ਵੱਧ	ਵੱਧ	ADV	_	_	12	advmod	_	_
+11	ਪ੍ਰਭਾਵਿਤ	ਪ੍ਰਭਾਵਿਤ	ADJ	_	_	12	compound:lvc	_	_
+12	ਕਰਦੇ	ਕਰਨਾ	VERB	_	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
+13	ਹਨ	ਹੈ	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+14	।	।	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ud_punjabi_coercive_discourse_19
+# original_text = ਕਿਉਂਕਿ ਇਹ ਉਹ ਥਾਵਾਂ ਹਨ ਜਿੱਥੇ 60 ਦੇ ਦਹਾਕੇ ਦੇ ਅਖੀਰ ਤੋਂ ਐਮਐਸਪੀ ਅਤੇ ਮੰਡੀ ਪ੍ਰਣਾਲੀ ਬਰਕਰਾਰ ਸੀ।
+# transliteration = kiũki ih uh thāvā̃ han jithẽ saṭṭh de dahāke de akhīr tõ aiṃaspī ate maṇḍī praṇālī barkarār sī.
+# translation = Because these are the places where the MSP and the Mandi (markets) system were intact from the late 60s onwards.
+# text = ਕਿਉਂਕਿ ਇਹ ਉਹ ਥਾਵਾਂ ਹਨ ਜਿੱਥੇ 60 ਦੇ ਦਹਾਕੇ ਦੇ ਅਖੀਰ ਤੋਂ ਐਮਐਸਪੀ ਅਤੇ ਮੰਡੀ ਪ੍ਰਣਾਲੀ ਬਰਕਰਾਰ ਸੀ ।
+1	ਕਿਉਂਕਿ	ਕਿਉਂਕਿ	SCONJ	_	_	4	mark	_	_
+2	ਇਹ	ਇਹ	DET	_	PronType=Dem	4	nsubj	_	_
+3	ਉਹ	ਉਹ	DET	_	PronType=Dem	4	det	_	_
+4	ਥਾਵਾਂ	ਥਾਵਾਂ	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+5	ਹਨ	ਹੈ	AUX	_	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	ਜਿੱਥੇ	ਜਿੱਥੇ	ADV	_	_	17	advmod	_	_
+7	60	60	NUM	_	_	9	nummod	_	NumType=card
+8	ਦੇ	ਦੇ	ADP	_	_	7	case	_	_
+9	ਦਹਾਕੇ	ਦਹਾਕੇ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+10	ਦੇ	ਦੇ	ADP	_	_	9	case	_	_
+11	ਅਖੀਰ	ਅਖੀਰ	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+12	ਤੋਂ	ਤੋਂ	ADP	_	_	11	case	_	_
+13	ਐਮਐਸਪੀ	ਐਮਐਸਪੀ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	compound	_	_
+14	ਅਤੇ	ਅਤੇ	CCONJ	_	_	16	cc	_	_
+15	ਮੰਡੀ	ਮੰਡੀ	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	ਪ੍ਰਣਾਲੀ	ਪ੍ਰਣਾਲੀ	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+17	ਬਰਕਰਾਰ	ਬਰਕਰਾਰ	ADJ	_	_	4	acl:relcl	_	_
+18	ਸੀ	ਸੀ	AUX	_	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	17	aux	_	_
+19	।	।	PUNCT	_	_	4	punct	_	_
+

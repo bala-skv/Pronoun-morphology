@@ -1,0 +1,29 @@
+lang,function,case,form,gender_number,verified,n_tokens,tokens
+en,subject,nom,I,,0,1,▁I
+en,subject_trans_past,nom,I,,0,1,▁I
+en,object_dative,acc,me,,0,1,▁me
+en,possessive,gen,my,,0,1,▁my
+en,possessive_independent,gen,mine,,0,1,▁mine
+en,from_me,abl,from me,,0,2,▁from | ▁me
+hi,subject,nom,मैं,,0,1,▁मैं
+hi,subject_trans_past,erg,मैंने,,0,1,▁मैंने
+hi,object_dative,acc_dat,मुझे,,0,1,▁मुझे
+hi,possessive,gen,मेरा,m.sg,0,2,▁मे | रा
+hi,possessive,gen,मेरी,f,0,2,▁मे | री
+hi,possessive,gen,मेरे,m.pl/obl,0,1,▁मेरे
+hi,from_me,abl,मुझसे,,0,3,▁मु | झ | से
+pa,subject,nom,ਮੈਂ,,0,3,▁ਮ | ੈ | ਂ
+pa,subject_trans_past,nom,ਮੈਂ,,0,3,▁ਮ | ੈ | ਂ
+pa,object_dative,acc_dat,ਮੈਨੂੰ,,0,4,▁ਮ | ੈ | ਨ | ੂੰ
+pa,possessive,gen,ਮੇਰਾ,m.sg,0,3,▁ਮ | ੇ | ਰਾ
+pa,possessive,gen,ਮੇਰੀ,f,0,3,▁ਮ | ੇ | ਰੀ
+pa,possessive,gen,ਮੇਰੇ,m.pl/obl,0,4,▁ਮ | ੇ | ਰ | ੇ
+pa,from_me,abl,ਮੈਥੋਂ,,0,4,▁ਮ | ੈ | ਥ | ੋਂ
+ta,subject,nom,நான்,,0,2,▁ந | ான்
+ta,subject_trans_past,nom,நான்,,0,2,▁ந | ான்
+ta,object,acc,என்னை,,0,2,▁என் | னை
+ta,dative,dat,எனக்கு,,0,2,▁என | க்கு
+ta,possessive,gen,என்,,0,1,▁என்
+ta,possessive_independent,gen,என்னுடைய,,0,3,▁என் | னு | டைய
+ta,possessive_pronominal,gen,என்னுடையது,,0,4,▁என் | னு | டைய | து
+ta,from_me,abl,என்னிடமிருந்து,,0,6,▁என் | னி | ட | ம | ிரு | ந்து

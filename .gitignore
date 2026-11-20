@@ -1,0 +1,23 @@
+# environments
+.venv/
+.venv-ada/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local scratch
+scratch/
+
+# large regenerable activation dumps (~70 MB each; rerun scripts/03_probe_gender.py)
+*.npz
+*.pt
+
+# LaTeX build output and editor lock files
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+.~lock*
+*.zip
+results/logs/

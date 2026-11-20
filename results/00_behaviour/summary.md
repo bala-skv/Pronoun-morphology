@@ -1,0 +1,126 @@
+# Stage 0: tokenization and behaviour
+
+## Subword counts of paradigm forms (in context, after a neutral word)
+
+| lang   | function               | form           |   n_tokens | tokens                         |
+|:-------|:-----------------------|:---------------|-----------:|:-------------------------------|
+| en     | subject                | I              |          1 | ▁I                             |
+| en     | subject_trans_past     | I              |          1 | ▁I                             |
+| en     | object_dative          | me             |          1 | ▁me                            |
+| en     | possessive             | my             |          1 | ▁my                            |
+| en     | possessive_independent | mine           |          1 | ▁mine                          |
+| en     | from_me                | from me        |          2 | ▁from | ▁me                    |
+| hi     | subject                | मैं            |          1 | ▁मैं                           |
+| hi     | subject_trans_past     | मैंने          |          1 | ▁मैंने                         |
+| hi     | object_dative          | मुझे           |          1 | ▁मुझे                          |
+| hi     | possessive             | मेरा           |          2 | ▁मे | रा                       |
+| hi     | possessive             | मेरी           |          2 | ▁मे | री                       |
+| hi     | possessive             | मेरे           |          1 | ▁मेरे                          |
+| hi     | from_me                | मुझसे          |          3 | ▁मु | झ | से                   |
+| pa     | subject                | ਮੈਂ            |          3 | ▁ਮ | ੈ | ਂ                     |
+| pa     | subject_trans_past     | ਮੈਂ            |          3 | ▁ਮ | ੈ | ਂ                     |
+| pa     | object_dative          | ਮੈਨੂੰ          |          4 | ▁ਮ | ੈ | ਨ | ੂੰ                |
+| pa     | possessive             | ਮੇਰਾ           |          3 | ▁ਮ | ੇ | ਰਾ                    |
+| pa     | possessive             | ਮੇਰੀ           |          3 | ▁ਮ | ੇ | ਰੀ                    |
+| pa     | possessive             | ਮੇਰੇ           |          4 | ▁ਮ | ੇ | ਰ | ੇ                 |
+| pa     | from_me                | ਮੈਥੋਂ          |          4 | ▁ਮ | ੈ | ਥ | ੋਂ                |
+| ta     | subject                | நான்           |          2 | ▁ந | ான்                       |
+| ta     | subject_trans_past     | நான்           |          2 | ▁ந | ான்                       |
+| ta     | object                 | என்னை          |          2 | ▁என் | னை                      |
+| ta     | dative                 | எனக்கு         |          2 | ▁என | க்கு                     |
+| ta     | possessive             | என்            |          1 | ▁என்                           |
+| ta     | possessive_independent | என்னுடைய       |          3 | ▁என் | னு | டைய                |
+| ta     | possessive_pronominal  | என்னுடையது     |          4 | ▁என் | னு | டைய | து           |
+| ta     | from_me                | என்னிடமிருந்து |          6 | ▁என் | னி | ட | ம | ிரு | ந்து |
+
+
+## Contrast 1 — possessive agreement (bare frames)
+
+Hindi/Punjabi: Δ = logit(fem possessive) − logit(masc possessive) at the decision token. Correct = Δ>0 for feminine nouns, Δ<0 for masculine.
+
+**hi** (n=320, dropped=0, prefix=' मे')  
+- accuracy: 0.562 [0.509, 0.622]  
+- mean Δ | fem noun: 0.891 [0.805, 0.971]  
+- mean Δ | masc noun: 0.398 [0.315, 0.484]  
+- mean P(possessive prefix): 0.007  
+
+  - frame 0: acc=0.600 (n=80) e.g. `यह किताब असल में`  
+
+  - frame 1: acc=0.575 (n=80) e.g. `वह किताब असल में`  
+
+  - frame 2: acc=0.550 (n=80) e.g. `यह किताब तो`  
+
+  - frame 3: acc=0.525 (n=80) e.g. `यह किताब सचमुच`  
+
+**pa** (n=316, dropped=0, prefix=' ਮੇ')  
+- accuracy: 0.573 [0.516, 0.627]  
+- mean Δ | fem noun: 0.178 [0.120, 0.233]  
+- mean Δ | masc noun: -0.000 [-0.053, 0.049]  
+- mean P(possessive prefix): 0.047  
+
+  - frame 0: acc=0.620 (n=79) e.g. `ਇਹ ਕਿਤਾਬ ਅਸਲ ਵਿੱਚ`  
+
+  - frame 1: acc=0.557 (n=79) e.g. `ਉਹ ਕਿਤਾਬ ਅਸਲ ਵਿੱਚ`  
+
+  - frame 2: acc=0.506 (n=79) e.g. `ਇਹ ਕਿਤਾਬ ਤਾਂ`  
+
+  - frame 3: acc=0.608 (n=79) e.g. `ਇਹ ਕਿਤਾਬ ਸੱਚਮੁੱਚ`  
+
+
+Controls (en, ta): log p(form) for translations of Hindi-fem vs Hindi-masc nouns; the difference should be ≈0 (no agreement in these languages).
+
+**en** (n=320): mean log p | fem-transl = -9.946, masc-transl = -10.395, diff = 0.449 [-0.273, 1.174]  
+
+**ta** (n=320): mean log p | fem-transl = -10.656, masc-transl = -10.666, diff = 0.010 [-0.318, 0.334]  
+
+## Contrast 1 — possessive agreement (ctx frames)
+
+Hindi/Punjabi: Δ = logit(fem possessive) − logit(masc possessive) at the decision token. Correct = Δ>0 for feminine nouns, Δ<0 for masculine.
+
+**hi** (n=304, dropped=0, prefix=' मे')  
+- accuracy: 0.905 [0.868, 0.934]  
+- mean Δ | fem noun: 2.184 [2.053, 2.307]  
+- mean Δ | masc noun: -0.981 [-1.134, -0.830]  
+- mean P(possessive prefix): 0.521  
+
+  - frame 0: acc=0.934 (n=76) e.g. `यह कलम मेरी है। यह घर मेरा है। यह किताब असल में`  
+
+  - frame 1: acc=0.882 (n=76) e.g. `यह घर मेरा है। यह कलम मेरी है। यह किताब असल में`  
+
+  - frame 2: acc=0.921 (n=76) e.g. `यह कुर्सी मेरी है। यह कमरा मेरा है। यह किताब असल में`  
+
+  - frame 3: acc=0.882 (n=76) e.g. `यह कमरा मेरा है। यह कुर्सी मेरी है। यह किताब असल में`  
+
+**pa** (n=300, dropped=0, prefix=' ਮੇ')  
+- accuracy: 0.793 [0.747, 0.840]  
+- mean Δ | fem noun: 0.241 [0.109, 0.370]  
+- mean Δ | masc noun: -1.241 [-1.406, -1.078]  
+- mean P(possessive prefix): 0.359  
+
+  - frame 0: acc=0.760 (n=75) e.g. `ਇਹ ਕਲਮ ਮੇਰੀ ਹੈ। ਇਹ ਘਰ ਮੇਰਾ ਹੈ। ਇਹ ਕਿਤਾਬ ਅਸਲ ਵਿੱਚ`  
+
+  - frame 1: acc=0.773 (n=75) e.g. `ਇਹ ਘਰ ਮੇਰਾ ਹੈ। ਇਹ ਕਲਮ ਮੇਰੀ ਹੈ। ਇਹ ਕਿਤਾਬ ਅਸਲ ਵਿੱਚ`  
+
+  - frame 2: acc=0.787 (n=75) e.g. `ਇਹ ਕੁਰਸੀ ਮੇਰੀ ਹੈ। ਇਹ ਕਮਰਾ ਮੇਰਾ ਹੈ। ਇਹ ਕਿਤਾਬ ਅਸਲ ਵਿੱਚ`  
+
+  - frame 3: acc=0.853 (n=75) e.g. `ਇਹ ਕਮਰਾ ਮੇਰਾ ਹੈ। ਇਹ ਕੁਰਸੀ ਮੇਰੀ ਹੈ। ਇਹ ਕਿਤਾਬ ਅਸਲ ਵਿੱਚ`  
+
+
+Controls (en, ta): log p(form) for translations of Hindi-fem vs Hindi-masc nouns; the difference should be ≈0 (no agreement in these languages).
+
+**en** (n=304): mean log p | fem-transl = -0.672, masc-transl = -0.630, diff = -0.042 [-0.084, 0.000]  
+
+**ta** (n=304): mean log p | fem-transl = -0.554, masc-transl = -0.509, diff = -0.045 [-0.096, 0.011]  
+
+
+## Contrast 2 — ergative cue → verb aspect
+
+Δ = logit(perfective, agreeing with object) − logsumexp(habitual masc, habitual fem). Expect Δ>0 after मैंने (clean) and Δ<0 after मैं (corrupt).
+
+**hi clean** (n=40): mean Δ = 2.181 [1.024, 3.322], acc = 0.525 [0.375, 0.675], mean P(verb prefix)=0.082  
+
+**hi corrupt** (n=40): mean Δ = -2.890 [-3.389, -2.428], acc = 1.000 [1.000, 1.000], mean P(verb prefix)=0.079  
+
+**hi paired** Δ_clean − Δ_corrupt (n=40): 5.071 [3.989, 6.113], frac>0 = 0.950  
+
+**pa control** ਮੈਂ O (n=12): mean Δ = -1.222 [-2.243, -0.235]  

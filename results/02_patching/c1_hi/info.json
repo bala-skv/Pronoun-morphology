@@ -1,0 +1,23 @@
+{
+ "contrast": "c1",
+ "lang": "hi",
+ "n_candidate_pairs": 296,
+ "n_correct": 244,
+ "n_used": 200,
+ "d_clean": "1.770 [1.645, 1.891]",
+ "d_corr": "-1.734 [-1.857, -1.607]",
+ "example_clean": "यह कुर्सी मेरी है। यह कमरा मेरा है। यह कटोरा असल में मे",
+ "example_corrupt": "यह कुर्सी मेरी है। यह कमरा मेरा है। यह चिट्ठी असल में मे",
+ "example_roles": {
+  "w_first": "▁क",
+  "w_mid": "ो",
+  "w_last": "रा",
+  "mid_first": "▁अस",
+  "mid_inner": "ल",
+  "mid_last": "▁में",
+  "END": "▁मे"
+ },
+ "sanity_last_logits_vs_full_maxabs": 2.765655517578125e-05,
+ "sanity_full_layer0_patch_maxabs_err": 0.0,
+ "sanity_identity_patch_maxabs_err": 0.0
+}
